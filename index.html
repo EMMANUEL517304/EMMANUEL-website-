@@ -1,6 +1,3 @@
-<footer>
-    <p>© 2026 Emmanuel. All rights reserved.</p>
-</footer>
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,6 +14,7 @@
     <nav>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
     </nav>
 </header>
@@ -32,17 +30,14 @@
 <section id="skills">
     <h2>My Skills</h2>
 
-    <p>HTML • CSS • GitHub</p>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>GitHub</li>
+        <li>JavaScript (Learning)</li>
+    </ul>
 </section>
 
-<section id="contact">
-    <h2>Contact Me</h2>
-
-    <button>Contact Me</button>
-</section>
-
-</body>
-</html>
 <section id="projects">
     <h2>My Projects</h2>
 
@@ -50,9 +45,7 @@
     <p>✔ Personal Portfolio</p>
     <p>✔ More projects coming soon...</p>
 </section>
-<a href="mailto:nicenelly86gmail.com">
-    <button>Contact Me</button>
-</a>
+
 <section id="hobbies">
     <h2>My Hobbies</h2>
 
@@ -63,24 +56,7 @@
         <li>⚽ Playing Football</li>
     </ul>
 </section>
-<section id="services">
-    <h2>My Services</h2>
 
-    <div class="service">
-        <h3>🌐 Website Design</h3>
-        <p>I create simple and responsive websites.</p>
-    </div>
-
-    <div class="service">
-        <h3>🎨 Web Styling</h3>
-        <p>I design beautiful web pages using CSS.</p>
-    </div>
-
-    <div class="service">
-        <h3>⚡ Front-End Development</h3>
-        <p>I build interactive websites using HTML, CSS, and JavaScript.</p>
-    </div>
-</section>
 <section id="services">
     <h2>My Services</h2>
 
@@ -99,5 +75,20 @@
         <p>I create web pages with HTML, CSS, and JavaScript.</p>
     </div>
 </section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <a href="mailto:nicenelly86@gmail.com">
+        <button onclick="welcomeMessage()">Contact Me</button>
+    </a>
+</section>
+
+<footer>
+    <p>© 2026 Emmanuel. All rights reserved.</p>
+</footer>
+
 <script src="script.js"></script>
-<button onclick="welcomeMessage()">Contact Me</button>
+
+</body>
+</html>
