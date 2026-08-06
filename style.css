@@ -134,6 +134,22 @@ footer {
 
 @keyframes fadeIn {
     from {
+        style.css
+
+...
+footer {
+    ...
+}
+
+@keyframes fadeIn {
+    ...
+}
+
+/* Paste here ⬇⬇⬇ */
+
+@media (max-width: 768px) {
+    ...
+}
         opacity: 0;
         transform: translateY(20px);
     }
