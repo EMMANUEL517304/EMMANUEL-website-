@@ -60,3 +60,10 @@ h2 {
     <li>CSS</li>
     <li>GitHub</li>
 </ul>
+footer {
+    background-color: #0077cc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
