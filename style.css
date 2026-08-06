@@ -81,3 +81,20 @@ footer {
     font-size: 20px;
     margin: 10px 0;
 }
+#services {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+}
+
+.service {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.service h3 {
+    color: #0077cc;
+}
