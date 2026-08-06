@@ -3,29 +3,22 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     text-align: center;
-}
-
 header {
     background-color: #0077cc;
     color: white;
     padding: 20px;
-}
-img {
-    transition: transform 0.4s;
-}
-
-img:hover {
-    transform: scale(1.08);
-}
-nav {
     margin-top: 10px;
-}
-
 nav a {
     color: white;
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
+}img {
+    transition: transform 0.4s;
+}
+
+img:hover {
+    transform: scale(1.08);
 }
 
 nav a:hover {
