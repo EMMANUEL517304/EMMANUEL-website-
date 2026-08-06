@@ -67,3 +67,17 @@ footer {
     padding: 20px;
     margin-top: 40px;
 }
+#hobbies {
+    background-color: white;
+    padding: 40px 20px;
+}
+
+#hobbies ul {
+    list-style: none;
+    padding: 0;
+}
+
+#hobbies li {
+    font-size: 20px;
+    margin: 10px 0;
+}
