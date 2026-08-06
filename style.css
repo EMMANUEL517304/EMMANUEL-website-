@@ -107,5 +107,26 @@ footer {
     to {
         opacity: 1;
         transform: translateY(0);
-    }
+    }#hero {
+    background: linear-gradient(135deg, #0077cc, #00b4d8);
+    color: white;
+    padding: 80px 20px;
+}
+
+#hero h2 {
+    font-size: 42px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+#hero p {
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+#hero button {
+    background: white;
+    color: #0077cc;
+    font-weight: bold;
+}
 }
