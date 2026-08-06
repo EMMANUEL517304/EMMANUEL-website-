@@ -107,7 +107,7 @@ footer {
     to {
         opacity: 1;
         transform: translateY(0);
-    }#hero {
+    #hero {
     background: linear-gradient(135deg, #0077cc, #00b4d8);
     color: white;
     padding: 80px 20px;
@@ -128,5 +128,6 @@ footer {
     background: white;
     color: #0077cc;
     font-weight: bold;
+}
 }
 }
